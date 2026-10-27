@@ -1,0 +1,218 @@
+[
+  {
+    "path": "build/icon.icns",
+    "width": 1024,
+    "height": 1024,
+    "mode": "RGBA",
+    "sha256": "380e4651c86538ae0e35c79f6efab5e7fb8cecf56bd3886227ce9a8cafb291f9",
+    "bytes": 2146727
+  },
+  {
+    "path": "build/icon.iconset/icon_128x128.png",
+    "width": 128,
+    "height": 128,
+    "mode": "RGBA",
+    "sha256": "523cae6cf66286d1a9594055b9a29cf43e72f98aa53a8c45b16bd15ae994ab9c",
+    "bytes": 30959
+  },
+  {
+    "path": "build/icon.iconset/icon_128x128@2x.png",
+    "width": 256,
+    "height": 256,
+    "mode": "RGBA",
+    "sha256": "b10a9e68fea299a8563416c4c559a3cbe9b17b6840f109ac98b887877a08d827",
+    "bytes": 107358
+  },
+  {
+    "path": "build/icon.iconset/icon_16x16.png",
+    "width": 16,
+    "height": 16,
+    "mode": "RGBA",
+    "sha256": "44d5cccd90026dda821a408b89359b5af5b91ae43b35f351959dc562e050f318",
+    "bytes": 916
+  },
+  {
+    "path": "build/icon.iconset/icon_16x16@2x.png",
+    "width": 32,
+    "height": 32,
+    "mode": "RGBA",
+    "sha256": "091c397fe92adb9d3fafb8378eab298e5ef04c15613bf8826fd0858aea5d7ec4",
+    "bytes": 2630
+  },
+  {
+    "path": "build/icon.iconset/icon_256x256.png",
+    "width": 256,
+    "height": 256,
+    "mode": "RGBA",
+    "sha256": "b10a9e68fea299a8563416c4c559a3cbe9b17b6840f109ac98b887877a08d827",
+    "bytes": 107358
+  },
+  {
+    "path": "build/icon.iconset/icon_256x256@2x.png",
+    "width": 512,
+    "height": 512,
+    "mode": "RGBA",
+    "sha256": "d255c103a03d4357e873845440945d08d0c9bcaa71754415658d0e0b2c372263",
+    "bytes": 366080
+  },
+  {
+    "path": "build/icon.iconset/icon_32x32.png",
+    "width": 32,
+    "height": 32,
+    "mode": "RGBA",
+    "sha256": "091c397fe92adb9d3fafb8378eab298e5ef04c15613bf8826fd0858aea5d7ec4",
+    "bytes": 2630
+  },
+  {
+    "path": "build/icon.iconset/icon_32x32@2x.png",
+    "width": 64,
+    "height": 64,
+    "mode": "RGBA",
+    "sha256": "bf9b886178b2d55145f37045bac7cc81155f5a02ff4871a8564194abea36b6bd",
+    "bytes": 8790
+  },
+  {
+    "path": "build/icon.iconset/icon_512x512.png",
+    "width": 512,
+    "height": 512,
+    "mode": "RGBA",
+    "sha256": "d255c103a03d4357e873845440945d08d0c9bcaa71754415658d0e0b2c372263",
+    "bytes": 366080
+  },
+  {
+    "path": "build/icon.iconset/icon_512x512@2x.png",
+    "width": 1024,
+    "height": 1024,
+    "mode": "RGBA",
+    "sha256": "81a74bdae79d43d602115f36779d44eafa859f7ed11addcb099e5e6337fc193f",
+    "bytes": 976088
+  },
+  {
+    "path": "build/icon.png",
+    "width": 1024,
+    "height": 1024,
+    "mode": "RGBA",
+    "sha256": "81a74bdae79d43d602115f36779d44eafa859f7ed11addcb099e5e6337fc193f",
+    "bytes": 976088
+  },
+  {
+    "path": "src/assets/backgrounds/steamworks-forge.png",
+    "width": 1672,
+    "height": 941,
+    "mode": "RGB",
+    "sha256": "5166696c2aa23ace6b4559654aec544dbed804625bd40ec71816d4d41d149ff8",
+    "bytes": 2038259
+  },
+  {
+    "path": "src/assets/sprites/afk-hero-attack-fx.png",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "sha256": "1b66f1c12ad037972c20a104b9f661239bcca0ac4e39df6040a8788ec91c5519",
+    "bytes": 835856
+  },
+  {
+    "path": "src/assets/sprites/afk-hero-boss.png",
+    "width": 1122,
+    "height": 1402,
+    "mode": "RGBA",
+    "sha256": "07e0d3f22461eac7db864245018b38e81b58578e5733c2f4f60df3ccd3b59ae0",
+    "bytes": 1791889
+  },
+  {
+    "path": "src/assets/sprites/afk-hero-enemy.png",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "sha256": "1222b1d777d705068adf763cac4023aff27293dc8da3864e77873179a7e91d7e",
+    "bytes": 1207272
+  },
+  {
+    "path": "src/assets/sprites/afk-hero-steampunk.png",
+    "width": 931,
+    "height": 1690,
+    "mode": "RGBA",
+    "sha256": "f4b00063d6a0d7cc095809f2bafdb9e8a8ff1ff8bdde5d86db2acbe221e8b84d",
+    "bytes": 1091431
+  },
+  {
+    "path": "src/assets/sprites/generated/boss-cathedral-furnace.png",
+    "width": 1122,
+    "height": 1402,
+    "mode": "RGBA",
+    "sha256": "0081178a400a3aa4ee84ada31171c6909e254ed06f0c5e281bac67c24b6fb7ea",
+    "bytes": 2386078
+  },
+  {
+    "path": "src/assets/sprites/generated/boss-clocktower-warden.png",
+    "width": 1122,
+    "height": 1402,
+    "mode": "RGBA",
+    "sha256": "74ba6ef71ea89ab97b283d1bd62808eca38d2e7b3c068713472b97b948b9c4d7",
+    "bytes": 2061138
+  },
+  {
+    "path": "src/assets/sprites/generated/boss-foundry-colossus.png",
+    "width": 1402,
+    "height": 1122,
+    "mode": "RGBA",
+    "sha256": "d80df9d1b9e1bba1062f38a3a2077f86c70354f787deb87c54f4c2d6eba405c9",
+    "bytes": 1950851
+  },
+  {
+    "path": "src/assets/sprites/generated/boss-harbor-gearlord.png",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "sha256": "fa869be14099ca6d6cb225cf8ea4fb11c30499355672bdde28ec5902bbcf98e0",
+    "bytes": 2367716
+  },
+  {
+    "path": "src/assets/sprites/generated/boss-rail-siege-engine.png",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "sha256": "c11b00faaa024d3f5483e030bc026968e092f98a725a0492c8f09189d1fbb560",
+    "bytes": 1745781
+  },
+  {
+    "path": "src/assets/sprites/generated/enemy-aether-drone.png",
+    "width": 1122,
+    "height": 1402,
+    "mode": "RGBA",
+    "sha256": "8c8bdb2b5536eccd414fd68e89287e9afdef0b2b1b989f65d5fdbde81ee20cd3",
+    "bytes": 1203784
+  },
+  {
+    "path": "src/assets/sprites/generated/enemy-censer-guard.png",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "sha256": "314ce82359dbfdf5588a263c2cd1ca0a4cfe51a7995a014ac8959c53a6e85d8e",
+    "bytes": 1452122
+  },
+  {
+    "path": "src/assets/sprites/generated/enemy-furnace-crawler.png",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "sha256": "69b8e60959a9eb737d5c7c0d9e35c1fba5bbdda44a27a29ec7e978e0846c80e1",
+    "bytes": 1665254
+  },
+  {
+    "path": "src/assets/sprites/generated/enemy-scrap-duelist.png",
+    "width": 1024,
+    "height": 1536,
+    "mode": "RGBA",
+    "sha256": "b820d90c04d876c6b0c2fa7da99d907ea958dfae94462a2cd996bc7da4626722",
+    "bytes": 988584
+  },
+  {
+    "path": "src/assets/sprites/generated/enemy-void-riveter.png",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "sha256": "de22e975340ad0f4eb54c862198c6a27abcd04e644e618a20e355a84e368c22d",
+    "bytes": 1917561
+  }
+]
