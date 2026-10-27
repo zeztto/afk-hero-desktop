@@ -1,0 +1,35 @@
+{
+  "appId": "dev.zeztto.afkhero.source",
+  "productName": "AFK HERO",
+  "directories": {
+    "output": "release"
+  },
+  "files": [
+    "dist/**/*",
+    "electron/**/*",
+    "package.json",
+    "LICENSE",
+    "THIRD_PARTY_NOTICES.md",
+    "THIRD_PARTY_LICENSES/**/*",
+    "docs/asset-credits.md",
+    "docs/asset-inventory.json"
+  ],
+  "asar": true,
+  "icon": "build/icon.icns",
+  "artifactName": "${productName}-${version}-${arch}.${ext}",
+  "mac": {
+    "category": "public.app-category.games",
+    "target": [
+      "dmg",
+      "zip"
+    ],
+    "hardenedRuntime": true,
+    "entitlements": "build/entitlements.mac.plist",
+    "entitlementsInherit": "build/entitlements.mac.plist",
+    "notarize": true,
+    "gatekeeperAssess": false
+  },
+  "dmg": {
+    "artifactName": "${productName}-${version}-${arch}.${ext}"
+  }
+}

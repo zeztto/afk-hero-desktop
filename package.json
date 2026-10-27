@@ -1,0 +1,60 @@
+{
+  "name": "afk-hero-desktop",
+  "version": "1.0.0",
+  "description": "AFK HERO macOS desktop idle RPG.",
+  "main": "electron/main.cjs",
+  "scripts": {
+    "dev": "concurrently -k \"vite --host 127.0.0.1\" \"wait-on http://127.0.0.1:5173 && electron .\"",
+    "build": "tsc --noEmit && vite build",
+    "assets:check": "node scripts/check-assets.mjs",
+    "copy:check": "node scripts/check-release-copy.mjs",
+    "release:config": "node scripts/check-release-config.mjs",
+    "release:mac": "npm run build && electron-builder --mac --config electron-builder.json",
+    "smoke:packaged": "node scripts/smoke-packaged.mjs",
+    "smoke:idle-performance": "node scripts/smoke-idle-performance.mjs",
+    "smoke:visual-regression": "node scripts/check-visual-regression.mjs",
+    "smoke:dmg": "node scripts/smoke-dmg.mjs",
+    "smoke:zip": "node scripts/smoke-zip.mjs",
+    "release:manifest": "node scripts/release-artifact-manifest.mjs",
+    "release:check": "npm run assets:check && npm run copy:check && npm run release:config && npm test && npm run release:mac && npm run smoke:packaged && npm run smoke:idle-performance && npm run release:manifest && npm run smoke:dmg && npm run smoke:zip && npm run smoke:visual-regression",
+    "release:public:preflight": "node scripts/public-release-preflight.mjs",
+    "release:public:preflight:env": "node scripts/run-with-release-env.mjs npm run release:public:preflight",
+    "release:public": "npm run release:check && npm run release:public:preflight",
+    "release:public:env": "node scripts/run-with-release-env.mjs npm run release:public",
+    "test": "vitest run",
+    "preview": "vite preview --host 127.0.0.1",
+    "start": "electron .",
+    "typecheck": "tsc --noEmit",
+    "package:local": "npm run build && electron-builder --mac dir --arm64 --config electron-builder.local.json"
+  },
+  "keywords": [
+    "idle-rpg",
+    "electron",
+    "macos",
+    "game"
+  ],
+  "author": "Sungwoon Jeon",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "lucide-react": "^1.17.0",
+    "react": "^19.2.6",
+    "react-dom": "^19.2.6"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.15",
+    "@types/react-dom": "^19.2.3",
+    "electron": "^42.3.0",
+    "electron-builder": "^26.8.1",
+    "playwright": "^1.60.0",
+    "vitest": "^4.1.7",
+    "@vitejs/plugin-react": "^6.0.2",
+    "concurrently": "^10.0.0",
+    "typescript": "^6.0.3",
+    "vite": "^8.0.14",
+    "wait-on": "^9.0.10"
+  },
+  "engines": {
+    "node": ">=24"
+  }
+}

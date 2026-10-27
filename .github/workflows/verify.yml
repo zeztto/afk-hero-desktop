@@ -1,0 +1,31 @@
+name: Verify source
+on:
+  push:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  verify:
+    strategy:
+      matrix:
+        os: [ubuntu-latest, macos-latest]
+    runs-on: ${{ matrix.os }}
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020
+        with:
+          node-version: '24'
+          cache: npm
+      - run: npm ci
+      - run: npm run typecheck
+      - run: npm test
+      - run: npm run build
+      - run: npm audit
+      - run: npm run assets:check
+      - run: npm run copy:check
+      - run: npm run release:config
+      - run: node scripts/smoke-packaged.mjs --fixtures-only
+# Native integration: npm run package:local then npm run smoke:packaged on macOS with a fresh AFK_HERO_QA_ARTIFACT_DIR.
+# The 22 scenarios launch packaged Electron/preload/IPC/filesystem; browser renderer or API mocks do not replace them.
+# This source CI does not claim native GUI integration success or a signed/notarized release.

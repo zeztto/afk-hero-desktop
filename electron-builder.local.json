@@ -1,0 +1,11 @@
+{
+  "extends": "./electron-builder.json",
+  "mac": {
+    "target": [
+      "dir"
+    ],
+    "identity": null,
+    "notarize": false,
+    "hardenedRuntime": false
+  }
+}

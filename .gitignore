@@ -1,0 +1,12 @@
+node_modules/
+dist/
+release/
+qa-artifacts/
+tmp/
+.env.release
+.DS_Store
+npm-debug.log*
+*.tmp
+
+coverage/
+*.tsbuildinfo
